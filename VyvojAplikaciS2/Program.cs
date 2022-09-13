@@ -77,12 +77,3 @@ Console.ReadLine();
 
 
 
-int stranaA = 10;
-
-Console.WriteLine("zadejte stranu a:");
-string odpoved = Console.ReadLine();
-Console.WriteLine("Username is: " + odpoved);
-
-stranaA = Int32.Parse(odpoved);
-
-int obvod = stranaA * 4;
